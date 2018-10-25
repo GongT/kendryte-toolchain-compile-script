@@ -27,5 +27,5 @@ cd ..
 
 set -x
 cd dist
-tar -cJf ../toolchain.tar.xz *
+tar --hard-dereference -cJf ../toolchain.tar.xz *
 
